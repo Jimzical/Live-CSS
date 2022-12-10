@@ -1,31 +1,65 @@
 <!DOCTYPE html>
-<html lang="en" contenteditable="true">
-<head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Try Out CSS Live</title>
-</head>
-<body >
-      <h1>Start Editing the html tag below to get live edits</h1>
-      <br>
-      <style style="display: block;">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Try Out CSS Live</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fauna+One&family=Julius+Sans+One&family=Montserrat:wght@100;300;500;600;700&family=Poppins:wght@200;300;400;600;900&family=Quicksand:wght@400;500&family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body auto-gramma="false">
+    <div class="container">
+      <div class="links">
+        <a href="https://github.com/Jimzical/Live-CSS"
+          ><img
+            src="./Assests/github-icon-1-logo-svgrepo-com.svg"
+            height="20"
+            alt="Editor"
+        /></a>
+        <a href="https://github.com/Jimzical/Live-CSS"
+          ><img
+            src="./Assests/github-icon-2-logo-svgrepo-com.svg"
+            height="20"
+            alt="Original creator"
+        /></a>
+      </div>
 
-            html {
-                  margin-top: 20vh;
-                  background-color: #1e1e1e;
-                  color: white;
-                  font-size: 25px;
-                  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            }
-      
-            *{transition: all 0.2s;}            
-
+      <h1 class="heading">Start Editing the the css below to get live edits</h1>
+      <div class="buttons">
+        <button class="button button_pri">Button</button>
+        <button class="button button_sec">Github</button>
+      </div>
+      <style
+        spellcheck="false"
+        autocomplete="off"
+        autocorrect="off"
+        data-gramm="false"
+        class="style"
+        contenteditable="true"
+      >
+        .button {
+          font-size: 16px;
+          padding: 0.8em 4em;
+          border-radius: 5px;
+          border: 1px solid #ffffff;
+          font-family: Montserrat;
+        }
+        .button_pri {
+          background-color: #fff;
+          color: #1e1e1e;
+        }
+        .button_sec {
+          background-color: #1e1e1e;
+          color: #fff;
+        }
       </style>
-      <p> Edit the html tag above to get live edits</p>
-      <br>
-      <p> Better for Trying out color schemes and font familys</p>
-      <p> You can also edit the css tag above to get live edits</p>
-
-</body>
+      <p>button is the class name for both the buttons above. button_pri the class name for the first button and button_sec is the class name for the second button</p>
+    </div>
+  </body>
 </html>
